@@ -8,3 +8,4 @@ langgraph
 langchain_huggingface
 arxiv
 wikipedia
+PyPDF2
