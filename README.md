@@ -4,12 +4,15 @@ This chatbot application is built using Python and various libraries, including 
 
 ## Features
 
-1. Upload multiple PDF files.
-2. Provide URLs of PDFs.
-3. Extract text from PDFs.
-4. Store the extracted text in a Cassandra database.
-5. Use a language model (LLM) to answer questions based on the stored text.
+1. Upload multiple PDF files or provide URLs of PDFs.
 
+2. Extract text from the uploaded PDF files and URLs.
+
+3. Store the extracted text in a vector store for efficient retrieval.
+4. Perform a Wikipedia search based on the user's question.
+5. Perform an Arxiv search based on the user's question.
+6. Route the user query to the most relevant datasource (Wikipedia, Arxiv, or vector store).
+7. Generate a response based on the retrieved documents from the selected datasource.
 ## Installation
 
 1. Clone the repository:
