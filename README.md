@@ -1,5 +1,8 @@
 # Chatbot Application
 
+https://github.com/user-attachments/assets/0793644b-3630-4d67-9479-8fe3b3a71aa4
+
+
 This chatbot application is built using Python and various libraries, including Streamlit, LangChain, and LangChain Community. It allows users to upload PDF files or provide URLs of PDFs, and then interacts with the extracted text using a language model.
 
 ## Features
